@@ -47,7 +47,7 @@ We define the Laplace transform of the function ![f(t)](https://render.githubuse
 ![f(s)= \int_{0}^{\infty} e^{-st}f(t)dt](https://render.githubusercontent.com/render/math?math=f(s)%3D%20%5Cint_%7B0%7D%5E%7B%5Cinfty%7D%20e%5E%7B-st%7Df(t)dt)
 
 and its inverse is
-![ f(t)= \frac{1}{2\pi i}\int_\Gamma e^{st}f(s)ds](https://render.githubusercontent.com/render/math?math=%20f(t)%3D%20%5Cfrac%7B1%7D%7B2%5Cpi%20i%7D%5Cint_%5CGamma%20e%5E%7Bst%7Df(s)ds)
+![ f(t)= \frac{1}{2\pi i}\int_\Gamma e^{st}f(s)ds](https://render.githubusercontent.com/render/math?math=%20f(t%3D%20%5Cfrac%7B1%7D%7B2%5Cpi%20i%7D%5Cint_%5CGamma%20e%5E%7Bt%7Df(s)ds)
 
 
 where ![\Gamma](https://render.githubusercontent.com/render/math?math=%5CGamma) is a vertical line to the right of all singularities in the complex s-plane.
