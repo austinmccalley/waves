@@ -1,4 +1,35 @@
-# Notes
+# Notes on Wave Modeling
+
+## Waves on the Water Surface - Mathemtical Models - Part 2
+We are going to work with the linear problem first.
+
+The wave amplitude is negligible in comparison to the wave length which thus simplifies the problem.
+
+The linear system of equations are defined below
+
+$$ \frac{\partial ^2 \phi}{\partial x^2} + \frac{\partial^2\phi}{\partial y^2} + \frac{\partial ^2 \phi}{\partial z^2}=0 $$
+
+$$ \frac{1}{g}\frac{\partial ^2 \phi}{\partial t^2}+\frac{\partial\phi}{\partial z}=0, z=0 $$
+
+$$ \frac{\partial \phi}{\partial x}\frac{\partial d}{\partial x}  + \frac{\partial\phi}{\partial y}\frac{\partial d}{\partial y} + \frac{\partial \varphi}{\partial z}=0, z =-d  $$
+
+$$ \frac{\partial \phi}{\partial t} = f_1(x,y,0),t=0,z=0$$
+
+$$ \phi = f_2(x,y,0),t=0,z=0$$
+
+This is where $t$ = time; $x,y,z$ = Cartesian coordinates; $d$ = depth; $g$ = gravitational acceleration; $\phi$ = velcoity potentional.
+
+For small bed slopes $|\frac{\partial d}{\partial x}|, |\frac{\partial d}{\partial y}|<<1$ this is asymptotic ray methods. This allows more simplificiation of the problem.
+
+#### Example
+A frontal approach of waves to the shore for a non-breaking wave is
+$$\eta= \sqrt{\frac{C_{g0}}{C_g}}a_0cos[\omega t-\int_{x_0}^{x}k(x)dx]$$
+where $\eta$ = wave profile; $a$ = wave amplitude; $C_g$ = group speed; $\omega = \frac{2\pi}{T}$ = angular velocity; $T$ = wave period; $k = \frac{2\pi}{\lambda}$ = wave number; $\lambda$ = wave length; $\omega^2 = gk*\tanh{kd}$; the index $\ll0\gg$ is the data in the entry range $x=x_0$. The expression for the wave height $H$ is
+$$h(x)=\sqrt{\frac{C_{g0}}{C_{g}}}H_0$$
+
+First solve the plane problems, which calculates the rays along with how the weave energy is propgating. Next use the law of energy flux conersion - the wave parameters. This is the standard approach to calculating the wave transofmration in the costal zone of the sea. An intersection of the wave rays is possible, which makes the calculating much more complex, since there is a need to apply various smoothing methods.
+
+
 
 ## Rays Waves and Scattering Chapter 13
 
